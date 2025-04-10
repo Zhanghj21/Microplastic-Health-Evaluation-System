@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import WaterSource from '../views/WaterSource.vue'
 import Food from '../views/Food.vue'
 import Air from '../views/Air.vue'
@@ -56,7 +56,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('/Microplastic-Health-Evaluation-System/'),
   routes
 })
 
